@@ -13,10 +13,13 @@
 
 - [📗 Table of Contents](#table-of-contents)
 - [📖 Description](#description)
-- [⭐️ Features](#️features)
+- [⭐️ Features](#️app-features)
 - [💻 Getting Started](#getting-started)
 - [🛠 Technologies Used](#technologies-used)
+- [👥 Authors ](#-authors-)
 - [🤝 Contributing](#contributing)
+- [⭐️ Show your support ](#️-show-your-support-)
+- [🙏 Acknowledgments ](#-acknowledgments-)
 - [📝 License](#license)
 
 <!-- DESCRIPTION -->
@@ -27,7 +30,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FEATURES -->
-## ⭐️ Features <a name="features"></a>
+## ⭐️ Features <a name="app-features"></a>
 
 - Calculator: Perform basic mathematical operations such as addition, subtraction, multiplication, and division.
 - Random Quote: Read and enjoy random math-related quotes to spark inspiration and curiosity.
@@ -83,12 +86,51 @@ npm run build
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- AUTHORS -->
+## 👥 Authors <a name="authors"></a>
+
+### 👤 **Jorge Camargo**  
+
+  - GitHub: [@jicamargo](https://github.com/jicamargo)
+
+  - Twitter: [@ji_camargo](https://twitter.com/ji_camargo)
+
+  - LinkedIn: [LinkedIn](https://linkedin.com/in/jorgecamargog)
+
+  _Feel free to reach out to us if you have any questions or collaboration opportunities!_
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- CONTRIBUTING -->
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions are welcome! If you have any ideas, improvements, or bug fixes, please open an issue or submit a pull request. For major changes, please discuss them with the project maintainers first.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+ 
+If you like this project, please give a ⭐️ (Thank you)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+
+- I would like to thank Microverse for this learning opportunity.
+
+- [Microverse team](https://microverse.org/)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- LICENSE -->
 ## 📝 License <a name="license"></a>
