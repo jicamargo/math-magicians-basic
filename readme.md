@@ -11,13 +11,13 @@
 <!-- TABLE OF CONTENTS -->
 # 📗 Table of Contents
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 Description](#-description)
-- [⭐️ Features](#️-features)
-- [💻 Getting Started](#-getting-started)
-- [🛠 Technologies Used](#-technologies-used)
-- [🤝 Contributing](#-contributing)
-- [📝 License](#-license)
+- [📗 Table of Contents](#table-of-contents)
+- [📖 Description](#description)
+- [⭐️ Features](#️features)
+- [💻 Getting Started](#getting-started)
+- [🛠 Technologies Used](#technologies-used)
+- [🤝 Contributing](#contributing)
+- [📝 License](#license)
 
 <!-- DESCRIPTION -->
 ## 📖 Description <a name="description"></a>
