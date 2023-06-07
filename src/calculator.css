@@ -40,20 +40,24 @@
 
 .button:hover {
   filter: brightness(1.3);
+  font-weight: bold;
+  font-size: large;
 }
 
 .display-container {
   background-color: var(--color-dark-gray);
   width: calc(var(--side-button) * 4);
+  height: var(--side-button);
 }
 
 .display {
-  height: var(--side-button);
-  width: calc(var(--side-button) * 4 - 10px);
+  width: calc(var(--side-button) * 4 - 16px);
+  margin: auto;
   background-color: var(--color-dark-gray);
   color: var(--color-lightgray);
   text-align: right;
-  font-size: 40px;
+  font-size: 25px;
+  overflow: hidden;
 }
 
 .wide {
