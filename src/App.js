@@ -1,15 +1,17 @@
 import './App.css';
 import Calculator from './components/Calculator';
+import Dailyquote from './components/Dailyquote';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Calculator
+        React Rocks!
       </header>
-      <h1>
+      <section className="components-section">
         <Calculator />
-      </h1>
+        <Dailyquote />
+      </section>
     </div>
   );
 }
