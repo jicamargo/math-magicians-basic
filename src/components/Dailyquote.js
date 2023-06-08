@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import '../dailyquote.css';
 
 function Dailyquote() {
   const [data, setData] = useState({});
@@ -26,7 +27,7 @@ function Dailyquote() {
           }
         })
         .then(jsonData => {
-          setData(jsonData);
+          setData(jsonData[0]);
         })
         .catch(error => {
           setHasError(true);
@@ -39,19 +40,30 @@ function Dailyquote() {
     fetchData();
   }, []);
 
+  /* show error message with style ;) */
   if (hasError) {
-    return <div><p>Something went wrong...</p></div>;
+    return (
+      <section className ='daily-quote'>
+        <p className='quote'>Error loading daily quote...</p>
+      </section>
+    );
   }
 
+  /* show loading message with style ;) */
   if (loading) {
-    return <div><p>Loading...</p></div>;
+    return (
+      <section className ='daily-quote'>
+        <p className='quote'>Loading...</p>
+      </section>
+    );
   }
 
   return (
-    <div>
-      <p>{data.quote}</p>
-      <p>{data.author}</p>
-    </div>
+    <section className ='daily-quote'>
+      <h1 className='title'>Daily Quote</h1>
+      <p className='quote'>{data.quote}</p>
+      <p className='author'>{data.author}</p>
+    </section>
   );
 }
 
