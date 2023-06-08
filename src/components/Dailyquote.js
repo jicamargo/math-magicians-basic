@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react';
 import '../dailyquote.css';
 
 function Dailyquote() {
@@ -16,20 +16,19 @@ function Dailyquote() {
         method: 'GET',
         headers: {
           'X-Api-Key': apiKey,
-          'Content-Type': 'application/json'
-        }
+          'Content-Type': 'application/json',
+        },
       })
-        .then(response => {
+        .then((response) => {
           if (!response.ok) {
             setHasError(true);
-          } else {
-            return response.json();
           }
+          return response.json();
         })
-        .then(jsonData => {
+        .then((jsonData) => {
           setData(jsonData[0]);
         })
-        .catch(error => {
+        .catch(() => {
           setHasError(true);
         })
         .finally(() => {
@@ -43,8 +42,8 @@ function Dailyquote() {
   /* show error message with style ;) */
   if (hasError) {
     return (
-      <section className ='daily-quote'>
-        <p className='quote'>Error loading daily quote...</p>
+      <section className="daily-quote">
+        <p className="quote">Error loading daily quote...</p>
       </section>
     );
   }
@@ -52,17 +51,17 @@ function Dailyquote() {
   /* show loading message with style ;) */
   if (loading) {
     return (
-      <section className ='daily-quote'>
-        <p className='quote'>Loading...</p>
+      <section className="daily-quote">
+        <p className="quote">Loading...</p>
       </section>
     );
   }
 
   return (
-    <section className ='daily-quote'>
-      <h1 className='title'>Daily Quote</h1>
-      <p className='quote'>{data.quote}</p>
-      <p className='author'>{data.author}</p>
+    <section className="daily-quote">
+      <h1 className="title">Daily Quote</h1>
+      <p className="quote">{data.quote}</p>
+      <p className="author">{data.author}</p>
     </section>
   );
 }
